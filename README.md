@@ -1,9 +1,9 @@
 # Basic usage 
-python main.py <target>
+python Vuln_scanner <target>
 Replace <target> with the IP address or hostname of the target you want to scan (e.g., example.com or 192.168.1.1)
 # Advance Option 
-python main.py <target> -p 1-1000 port scan
-python main.py <target> -o "-sV -O" ( -sV for version detection ) ( OS detection may require elevated privileges. Run the script with sudo if needed )
+python Vuln_scanner <target> -p 1-1000 port scan
+python  Vuln_scanner <target> -o "-sV -O" ( -sV for version detection ) ( OS detection may require elevated privileges. Run the script with sudo if needed )
 sudo python Vuln_Scanner <target>
 # OUTPUT FORMAT 
 python main.py <target> -f csv save in CSV
